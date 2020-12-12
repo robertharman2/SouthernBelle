@@ -1,5 +1,9 @@
 body {
-	background-color: rgb(158, 233, 158);
+	background-color: whitesmoke;
+}
+
+#brand {
+	font-family: 'Dancing Script', cursive;
 }
 
 h1 {
@@ -8,6 +12,11 @@ h1 {
 }
 
 h2 {
+	font-size: 3rem;
+	font-family: 'Dancing Script', cursive;
+}
+
+#price {
 	font-size: 3rem;
 	font-family: 'Dancing Script', cursive;
 }
@@ -23,6 +32,11 @@ p {
 img {
 	width: 300px;
 	height: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+iframe {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #footer {
